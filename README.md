@@ -13,6 +13,9 @@ Este é um script simples para realizar raspagem de dados de uma página da web.
 Antes de executar o script, certifique-se de que os seguintes requisitos estão instalados:
 
 - Python 3.7 ou superior
+- É recomendavel criar seu ambiente virtual:
+  - python -m venv venv
+  - .\venv\Scripts\activate
 - Bibliotecas Python necessárias (instaladas via `pip`):
   - `requests`
   - `beautifulsoup4`
@@ -24,3 +27,5 @@ Antes de executar o script, certifique-se de que os seguintes requisitos estão 
    ```bash
    git clone https://github.com/GustavoMarquesDev/Web_Scraping_English_Expression
    cd Web_Scraping_English_Expression
+   pip install -r requirements.txt
+
